@@ -1,28 +1,35 @@
+<?php
+/*
+
+	Header of the whole content
+
+*/
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="OSSGVS - Sergio Osmena Sr. High School">
-		<meta name="keywords" content="school, grade 1 to 12, elections, entrance elections,  sergio osmena sr high school, philippines, manila senior high school, senior high schools">
+		<meta name="keywords" content="school, grade 1 to 12, elections, entrance elections,  sergio osmena sr. high school, philippines, manila senior high school, senior high schools">
 		<meta name="author" content="International Christian Academy">
 		<title>OSSGVS - sergio Osmena Sr. High School</title>
 		<link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/favicon.ico');?>">
 		<!-- Main Stylesheet -->
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/main.css');?>">
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="<?php echo base_url('node_modules/bootstrap/dist/css/bootstrap.min.css');?>">
+		<link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css');?>">
 		<!--Font Awesome Icons CSS-->
-		<link rel="stylesheet" href="<?php echo base_url('node_modules/font-awesome/css/font-awesome.min.css');?>">
+		<link rel="stylesheet" href="<?php echo base_url('assets/font_awesome/css/fontawesome-all.min.css');?>">
 		<!--Animate.CSS-->
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url('node_modules/animate.css/animate.min.css');?>">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/animate.css');?>">
 		<!-- Owl Carousel CSS and Default Theme -->
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url('node_modules/owl.carousel/dist/assets/owl.carousel.min.css');?>">
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url('node_modules/owl.carousel/dist/assets/owl.theme.default.min.css');?>">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/owl.carousel.js/dist/assets/owl.carousel.min.css');?>">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/owl.carousel.js/dist/assets/owl.theme.default.min.css');?>">
 		<!-- Normalize.CSS -->
-		<link rel="stylesheet" href="<?php echo base_url('node_modules/normalize.css/normalize.css');?>">
+		<link rel="stylesheet" href="<?php echo base_url('assets/css/normalize.css');?>">
 		<!-- Textillate CSS -->
-		<!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url('node_modules/textillate/assets/style.css');?>"> -->
+		<!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/textillate.js/assets/style.css');?>"> -->
 		<!--Bootstrap Simple Sidebar CSS-->
 		<!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bootstrap-simple-sidebar.css"> -->
 		<!-- <style type="text/css">
@@ -133,11 +140,11 @@
 	</head>
 	<body>
 		<!-- header-->
-		<?php $this->load->view('content-header');?>
+		<?php //$this->load->view('content-header');?>
 		<!-- /header -->
 
 		<!-- background slider -->
-		<?php $this->load->view('content-bg_slider');?>
+		<?php //$this->load->view('content-bg_slider');?>
 		<!-- /background slider -->
 
 		<!-- banner -->
@@ -148,9 +155,9 @@
 						<h1 class="text-light text-center animated fadeInUp tlt" style="animation-duration: 200ms; margin: 30px auto;">
 							<!-- ENTRANCE EXAMINATION -->
 							<ul class="texts">
-								<li>ENTRANCE EXAMINATION</li>
-								<li>ICA IS NOW OPEN FOR ENROLLMENT</li>
-								<li>REGISTER NOW!</li>
+								<li>Online Student Supreme Government Voting System</li>
+								<!-- <li>ICA IS NOW OPEN FOR ENROLLMENT</li> -->
+								<!-- <li>REGISTER NOW!</li> -->
 
 								<!-- <li>Eksaminasyon Sa Pasukan</li> -->
 								<!-- <li>入試</li> -->
@@ -252,20 +259,20 @@
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="<?php echo base_url('node_modules/jquery/dist/jquery.min.js');?>"></script>
-		<script src="<?php echo base_url('node_modules/popper.js/dist/umd/popper.min.js');?>"></script>
-		<script src="<?php echo base_url('node_modules/bootstrap/dist/js/bootstrap.min.js');?>"></script>
+		<script src="<?php echo base_url('assets/js/jquery-3.2.1.min.js');?>"></script>
+		<script src="<?php echo base_url('assets/bootstrap/js/popper.min.js');?>"></script>
+		<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js');?>"></script>
 
 		<!-- Owl Carousel JS -->
-		<script src="<?php echo base_url('node_modules/owl.carousel/dist/owl.carousel.min.js');?>"></script>
+		<script src="<?php echo base_url('assets/owl.carousel.js/dist/owl.carousel.min.js');?>"></script>
 		<!-- ScrollReveal JS -->
-		<script src="<?php echo base_url('node_modules/scrollreveal/dist/scrollreveal.min.js');?>"></script>
+		<script src="<?php echo base_url('assets/scrollreveal/dist/scrollreveal.min.js');?>"></script>
 		<!-- Parallax.JS -->
 		<!-- <script src="<?php echo base_url('assets/parallax.js/parallax.min.js');?>"></script> -->
 		<!-- Textillate.JS -->
-		<script src="<?php echo base_url('node_modules/textillate/assets/jquery.fittext.js');?>"></script>
-		<script src="<?php echo base_url('node_modules/textillate/assets/jquery.lettering.js');?>"></script>
-		<script src="<?php echo base_url('node_modules/textillate/jquery.textillate.js');?>"></script>
+		<!-- <script src="<?php echo base_url('assets/textillate.js/assets/jquery.fittext.js');?>"></script> -->
+		<!-- <script src="<?php echo base_url('assets/textillate.js/assets/jquery.lettering.js');?>"></script> -->
+		<!-- <script src="<?php echo base_url('assets/textillate.js/jquery.textillate.js');?>"></script> -->
 
 		<script type="text/javascript">
 			$(document).ready(function(){
@@ -327,36 +334,5 @@
 				});
 			});
 		</script>
-		<!-- Test LiveReload Plugin -->
-		<!-- <script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:81}/livereload.js?snipver=1"></' + 'script>')</script> -->
-
-		<!-- other scripts -->
-		<!-- <script>
-			$(document).ready(function($) {
-				$('#sidebarHome').addClass('active');
-				$('#sidebarBtn').on('click', function() {
-					sidebar_open();
-				});
-				$('#sidebarOverlay, #sidebarCloseButton').on('click', function() {
-					sidebar_close();
-				});
-			});
-
-			function sidebar_open() {
-				if ($('.sidebar').css('display','block') === 'block') {
-					$('.sidebar').css('display','none');
-					$('.sidebar-overlay').css('display','none');
-				} else {
-					$('.sidebar').css('display','block');
-					$('.sidebar-overlay').css('display','block');
-				}
-			}
-
-			function sidebar_close() {
-				$('.sidebar').css('display','none');
-				$('.sidebar-overlay').css('display','none');
-			}
-		</script> -->
-
 	</body>
 </html>
