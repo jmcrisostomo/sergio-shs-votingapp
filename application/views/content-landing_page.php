@@ -25,7 +25,7 @@
 		<!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url('node_modules/textillate/assets/style.css');?>"> -->
 		<!--Bootstrap Simple Sidebar CSS-->
 		<!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bootstrap-simple-sidebar.css"> -->
-		<!-- <style type="text/css">
+		<style type="text/css">
 			html, body {
 				margin-top: 0px;
 			}
@@ -129,7 +129,7 @@
 					font: 3em 'Mina', sans-serif;
 				}
 			}
-		</style> -->
+		</style>
 	</head>
 	<body>
 		<!-- header-->
