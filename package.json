@@ -1,0 +1,8 @@
+{
+  "name": "sergio-hs-votingapp",
+  "version": "1.0.0",
+  "description": "An IT Special Project For STI Munoz-EDSA, 2018 all rights reserved.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "JM Crisostomo <jm.crisostomo@gmail.com>"
+}
