@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-animate.css@^3.6.1:
+"animate.css@>= 3.0.0", animate.css@^3.6.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-3.6.1.tgz#4ea8a48556378bc8d7535224296c4c0dac9229de"
 
@@ -10,9 +10,19 @@ bootstrap@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.1.1.tgz#3aec85000fa619085da8d2e4983dfd67cf2114cb"
 
-jquery@>=1.8.3, jquery@^3.3.1:
+font-awesome@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
+
+"jquery@>= 1.6.2", jquery@>=1.8.3, jquery@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+
+"letteringjs@>= 0.6.1":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/letteringjs/-/letteringjs-0.7.0.tgz#a9f02ed8265b44a78c0478ec5b019bf0884fb582"
+  dependencies:
+    jquery ">= 1.6.2"
 
 normalize.css@^8.0.0:
   version "8.0.0"
@@ -31,3 +41,11 @@ popper.js@^1.14.3:
 scrollreveal@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/scrollreveal/-/scrollreveal-3.4.0.tgz#77ce77b383d1883f2aafebdfc6f17a105718a780"
+
+textillate@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/textillate/-/textillate-0.4.1.tgz#543e7461ca58ce453546be668b27f79c502fb501"
+  dependencies:
+    animate.css ">= 3.0.0"
+    jquery ">= 1.6.2"
+    letteringjs ">= 0.6.1"

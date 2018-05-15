@@ -9,10 +9,12 @@
   "dependencies": {
     "animate.css": "^3.6.1",
     "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "normalize.css": "^8.0.0",
     "owl.carousel": "^2.3.4",
     "popper.js": "^1.14.3",
-    "scrollreveal": "^3.4.0"
+    "scrollreveal": "^3.4.0",
+    "textillate": "^0.4.1"
   }
 }
