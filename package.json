@@ -4,5 +4,14 @@
   "description": "An IT Special Project For STI Munoz-EDSA, 2018 all rights reserved.",
   "main": "index.js",
   "license": "MIT",
-  "author": "JM Crisostomo <jm.crisostomo@gmail.com>"
+  "author": "JM Crisostomo <jm.crisostomo@gmail.com>",
+  "repository": "https://github.com/jmcrisostomo/sergio-hs-votingapp",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.14.3"
+  }
 }
