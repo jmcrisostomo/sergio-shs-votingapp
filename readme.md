@@ -16,7 +16,7 @@ XAMMP for your local server
 Any Text Editor is fine (lol)
 ```
 
-### Installing
+<!-- ### Installing
 
 A step by step series of examples that tell you have to get a development env running
 
@@ -71,12 +71,12 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
+ -->
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **JM Crisostomo** - *Initial work* - [jmcrisostomo](https://github.com/jmcrisostomo)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+<!-- See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project -->
 
 ## License
 
@@ -86,4 +86,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Hat tip to anyone who's code was used
 * Inspiration
-* etc
+* Para sa bayan! Mabuhay. :D
