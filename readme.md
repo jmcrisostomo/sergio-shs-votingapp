@@ -4,14 +4,16 @@ A Capstone Project Presented to the Faculty of Information and Communications Te
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+<!-- These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. -->
+This project is builded for educational purposes only, you may contact the author if you want to keep in touch. ;)
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+<!-- What things you need to install the software and how to install them -->
 
 ```
-Give examples
+XAMMP for your local server
+Any Text Editor is fine (lol)
 ```
 
 ### Installing
