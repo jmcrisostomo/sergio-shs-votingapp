@@ -1,9 +1,9 @@
-<footer class="container-fluid footer">
-	<!-- <div class="row bg-grey" style="height: 15px;"></div> -->
+<!-- <footer class="container-fluid footer">
+	<!- - <div class="row bg-grey" style="height: 15px;"></div> - ->
 	<div class="footer-content">
 		<div class="row">
 			<div class="col-md-12">
-				<!-- <img class="img-footer float-right" src="<?php echo base_url();?>/assets/img/gary_logo_1.png"> -->
+				<!- - <img class="img-footer float-right" src="<?php echo base_url();?>/assets/img/gary_logo_1.png"> - ->
 				<img class="img-fluid float-right
 				" src="<?php echo base_url('assets/images/company_logo.png');?>" style="height: 100px; background-color: #FFF; border-radius: 5px;">
 				<div class="row">
@@ -19,8 +19,8 @@
 						<ul class="unstyled">
 							<li><a href="#" class="text-light">Contact # </a></li>
 							<li><a href="#" class="text-light">Hotline # </a></li>
-							<!--<li><a href="#" class="text-light">Links</a></li>
-							<li><a href="#" class="text-light">Contact</a></li>-->
+							<!- -<li><a href="#" class="text-light">Links</a></li>
+							<li><a href="#" class="text-light">Contact</a></li>- ->
 						</ul>
 					</div>
 					<div class="col-sm-2">
@@ -52,5 +52,15 @@
 				</div>
 			</div>
 		</div>
-	</div><!-- /.footer-content -->
-</footer>
+	</div><!- - /.footer-content - ->
+</footer>		 -->
+
+<!-- footer + scripts-->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="<?php echo base_url('node_modules/jquery/dist/jquery.min.js');?>"></script>
+		<script src="<?php echo base_url('node_modules/popper.js/dist/umd/popper.min.js');?>"></script>
+		<script src="<?php echo base_url('node_modules/bootstrap/dist/js/bootstrap.min.js');?>"></script>
+	</body>
+</html>

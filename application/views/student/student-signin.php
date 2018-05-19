@@ -1,61 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="admin">
-		<meta name="author" content="admin">
-		<title>Student Sign-in - International Christian Academy</title>
-		<link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/favicon.ico');?>">
-		<!-- Main Stylesheet -->
-		<link rel="stylesheet" href="<?php echo base_url('assets/css/main.css');?>">
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css');?>">
-		<!--Font Awesome Icons CSS-->
-		<link rel="stylesheet" href="<?php echo base_url('assets/font_awesome/css/fontawesome-all.min.css');?>">
-		<!--Animate.CSS-->
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/animate.css');?>">
-		<!--DataTables CSS-->
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/datatables/datatables.min.css');?>">
-		<!-- Normalize.CSS -->
-		<link rel="stylesheet" href="<?php echo base_url('assets/css/normalize.css');?>">
-	</head>
-	<body>
-		<div class="container-fluid">
-			<div class="login-bg animated fadeIn" style="animation-duration: 500ms;">
-			</div>
-			<div class="login-content animated fadeIn" style="animation-duration: 500ms;">
-				<a href="<?php echo base_url();?>"><img class="img-fluid login-logo" src="<?php echo base_url('assets/images/company_logo.png');?>" ></a>
-				<h5 class="text-center mb-3">Student Sign In</h5>
+<?php
+	$this->load->view('header');
+?>
 
-				<form method="POST" action="<?php echo base_url();?>Controller_Authentication/function_sign_in_user">
-					<div class="input-group mb-3 animated fadeInUp" style="animation-duration: 500ms;">
-					  <div class="input-group-prepend">
-					    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
-					  </div>
-					  <input type="text" class="form-control" placeholder="Username" aria-label="Username" name="username" aria-describedby="basic-addon1">
+<div class="container-fluid">
+	<div class="login-bg animated fadeIn" style="animation-duration: 500ms;">
+	</div>
+
+	<div class="login-content row my-auto">
+		<div class="col-md-8 col-12">
+			<div class="login-logo-content">
+				<div class="row mt-3">
+					<div class="col-md-6 col-6 text-center animated fadeIn border-right-to-left" style="animation-duration: 500ms;">
+						<a href="<?php echo base_url();?>">
+							<img class="img-fluid login-logo" src="<?php echo base_url('assets/images/logo-1.png');?>" >
+						</a>
 					</div>
-					<div class="input-group mb-3 animated fadeInUp" style="animation-duration: 600ms;">
-					  <div class="input-group-prepend">
-					    <span class="input-group-text" id="basic-addon1"><i class="fa fa-key"></i></span>
-					  </div>
-					  <input type="password" class="form-control" placeholder="Password" aria-label="password" name="password" aria-describedby="basic-addon1">
+					<div class="col-md-6 col-6 text-center animated fadeIn" style="animation-duration: 500ms;">
+						<a href="<?php echo base_url();?>">
+							<img class="img-fluid login-logo" src="<?php echo base_url('assets/images/logo-3.png');?>" >
+						</a>
 					</div>
-
-					<button class="btn btn-success mt-3 animated fadeInUp" type="submit" value="Login" style="width: 100%; animation-duration: 700ms;"><span><i class="fa fa-sign-in-alt"></i></span> Sign in</button>
-				</form>
-
-				<small><a href="#" class="text-primary">Forgot Password?</a></small>
+					<div class="col-md-12">
+						<h1 class="text-center animated fadeInUp" style="animation-duration: 500ms; animation-delay: 250ms;">Sergio Osmeña Sr. High School</h1>
+						<p class="text-center lead animated fadeInUp" style="animation-duration: 500ms; animation-delay: 300ms;">Supreme Student Government</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		<!-- footer + scripts-->
+		<div class="col-md-4 col-12">
+			<div class="login-form">
+				<div class="animated fadeIn" style="animation-duration: 500ms;  position: relative;  top: 50%;
+    transform: translate(0%,-50%);padding: 25px;
+    background: #fff;
+    box-shadow: 5px 5px 25px;">
+					<h5 class="text-center mb-3">Student Sign In</h5>
+					<form method="POST" action="<?php echo base_url();?>Controller_Authentication/function_sign_in_user">
+						<div class="input-group mb-3 animated fadeInUp" style="animation-duration: 500ms;">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+							</div>
+							<input type="text" class="form-control" placeholder="Username" aria-label="Username" name="username" aria-describedby="basic-addon1">
+						</div>
+						<div class="input-group mb-3 animated fadeInUp" style="animation-duration: 600ms;">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basic-addon1"><i class="fa fa-key"></i></span>
+							</div>
+							<input type="password" class="form-control" placeholder="Password" aria-label="password" name="password" aria-describedby="basic-addon1">
+						</div>
+						<button class="btn btn-primary mt-3 animated fadeInUp" type="submit" value="Login" style="width: 100%; animation-duration: 700ms;"><span><i class="fa fa-sign-in-alt"></i></span> Sign in</button>
+					</form>
+					<small><a href="#" class="text-primary">Forgot Password?</a></small>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--./row-->
 
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="<?php echo base_url('assets/js/jquery-3.2.1.min.js');?>"></script>
-		<script src="<?php echo base_url('assets/bootstrap/js/popper.min.js');?>"></script>
-		<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js');?>"></script>
-		<!-- Test LiveReload Plugin -->
-		<!-- <script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:81}/livereload.js?snipver=1"></' + 'script>')</script>
- -->	</body>
-</html>
+	<!-- <div class="login-content animated fadeIn" style="animation-duration: 500ms;">
+		<a href="<?php echo base_url();?>"><img class="img-fluid login-logo" src="<?php echo base_url('assets/images/company_logo.png');?>" ></a>
+		<h5 class="text-center mb-3">Student Sign In</h5>
+		<form method="POST" action="<?php echo base_url();?>Controller_Authentication/function_sign_in_user">
+			<div class="input-group mb-3 animated fadeInUp" style="animation-duration: 500ms;">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+				</div>
+				<input type="text" class="form-control" placeholder="Username" aria-label="Username" name="username" aria-describedby="basic-addon1">
+			</div>
+			<div class="input-group mb-3 animated fadeInUp" style="animation-duration: 600ms;">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon1"><i class="fa fa-key"></i></span>
+				</div>
+				<input type="password" class="form-control" placeholder="Password" aria-label="password" name="password" aria-describedby="basic-addon1">
+			</div>
+			<button class="btn btn-success mt-3 animated fadeInUp" type="submit" value="Login" style="width: 100%; animation-duration: 700ms;"><span><i class="fa fa-sign-in-alt"></i></span> Sign in</button>
+		</form>
+		<small><a href="#" class="text-primary">Forgot Password?</a></small>
+	</div> -->
+</div>
+
+<?php
+	$this->load->view('footer');
+?>

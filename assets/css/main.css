@@ -6,10 +6,16 @@ Author URI: 	https://jmcrisostomo.github.io/
 Tags: 			No Tags 
 ***********************************************/
 
+@import url('https://fonts.googleapis.com/css?family=Cabin|Inconsolata|Nunito|Nunito+Sans|Quicksand|Rubik');
+
+
 /*global setting*/
 html, body{
+	height: 100%;
+	width: 100%;
 	overflow-x: hidden;
-	margin-top: 50px;
+	font-family: 'Rubik','Quicksand','Inconsolata','Cabin','Nunito','Nunito Sans', sans-serif, monospace;
+	/*margin-top: 50px;*/
 }
 
 /*header*/
@@ -158,39 +164,141 @@ ul > li > a.nav-link {
 }
 /*sidebar*/
 
-/* login */
-.login-logo {
-	width: 120px;left: 50%; transform: translate(50%, 0);
+/* login - Students */
+.border-right-to-left {
+    border-width: 3px 3px 3px 0;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 100% 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%; 
+    -o-border-image:
+      -o-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to left, black, rgba(0, 0, 0, 0)) 1 100%;     
 }
-.login-bg {
-	background-image: url('login_bg.jpg');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: fixed;
-	top: 0px;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	/*filter: blur(5px);*/
-	z-index: -100;
+
+.login-logo
+{
+  width:300px;
+  margin:0 auto;
 }
-.login-content {
-	position: absolute;
-	max-width: 400px;
-	min-width: 300px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(250,250,250 ,0.5);
-	padding: 30px;
-	height: 400px;
-	border-radius: 5px;
+
+.login-logo-content
+{
+  position:relative;
+  top:50%;
+  transform:translate(0%,-50%);
 }
-.input-group-text {
-    background-color: rgba(158,158,158,1) !important;
-    color: rgba(250,250,250 ,1) !important;
+
+.login-bg
+{
+  opacity:0.2;
+  background-image:url(admin-bg.jpg);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-100;
 }
+
+.login-form
+{
+  height:100%;
+  top:50%;
+  left:50%;
+  background-color:rgba(63,81,181,0.8);
+  padding:30px;
+}
+
+.login-content
+{
+  position:absolute;
+  height:100%;
+  min-width:300px;
+}
+
+.input-group-text
+{
+  background-color:rgba(63,81,181,1)!important;
+  color:rgba(250,250,250,1)!important;
+  width:40px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .login-content
+  {
+    position:relative;
+  }
+  
+  .login-content > .col-md-4,.col-12
+  {
+    padding-right:0;
+    padding-left:0;
+  }
+}
+/* login - Students */
+
+/* login - Admin */
+.admin-login-content
+{
+  position:absolute;
+  height:100%;
+  width:100%;
+  min-width:300px;
+}
+
+.admin-login-form
+{
+  position:absolute;
+  height:500px;
+  width:500px;
+  max-width:600px;
+  min-width:300px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background-color:rgba(63,81,181,0.8);
+  padding:30px;
+}
+
+.admin-login-form > div
+{
+  animation-duration:500ms;
+  position:relative;
+  width:350px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#fff;
+  box-shadow:5px 5px 25px;
+  padding:25px;
+}
+
+.admin-login-logo
+{
+  width:165px;
+  position:relative;
+  padding-bottom:15px;
+  left:50%;
+  transform:translate(-50%,0);
+  margin:0 auto;
+}
+@media only screen and (max-device-width: 480px) {
+	.admin-login-form
+	{
+		width: 100%;
+	}
+}
+/* login - Admin */
+
+
 
 /*dashboard*/
 .main {
