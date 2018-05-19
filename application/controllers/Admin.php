@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Admin extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -21,6 +21,6 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		// $this->load->view('content-landing_page'); Home must be the login agad, for the student's safety.
-		$this->load->view('student/student-signin');
+		$this->load->view('admin/admin-signin');
 	}
 }
