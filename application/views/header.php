@@ -33,8 +33,8 @@
 		<!--Animate.CSS-->
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url('node_modules/animate.css/animate.min.css');?>">
 		<!-- Owl Carousel CSS and Default Theme -->
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url('node_modules/owl.carousel/dist/assets/owl.carousel.min.css');?>">
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url('node_modules/owl.carousel/dist/assets/owl.theme.default.min.css');?>">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('node_modules/slick-carousel/slick/slick.css');?>">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('node_modules/slick-carousel/slick/slick-theme.css');?>">
 		<!-- Normalize.CSS -->
 		<link rel="stylesheet" href="<?php echo base_url('node_modules/normalize.css/normalize.css');?>">
 	</head>

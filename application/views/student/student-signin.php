@@ -3,9 +3,7 @@
 ?>
 
 <div class="container-fluid">
-	<div class="login-bg animated fadeIn" style="animation-duration: 500ms;">
-	</div>
-
+	<div class="login-bg animated fadeIn" style="animation-duration: 500ms;"></div>
 	<div class="login-content row my-auto">
 		<div class="col-md-8 col-12">
 			<div class="login-logo-content">
@@ -29,17 +27,14 @@
 		</div>
 		<div class="col-md-4 col-12">
 			<div class="login-form">
-				<div class="animated fadeIn" style="animation-duration: 500ms;  position: relative;  top: 50%;
-    transform: translate(0%,-50%);padding: 25px;
-    background: #fff;
-    box-shadow: 5px 5px 25px;">
+				<div class="animated fadeIn" style="animation-duration: 500ms;">
 					<h5 class="text-center mb-3">Student Sign In</h5>
 					<form method="POST" action="<?php echo base_url();?>Controller_Authentication/function_sign_in_user">
 						<div class="input-group mb-3 animated fadeInUp" style="animation-duration: 500ms;">
 							<div class="input-group-prepend">
-								<span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+								<span class="input-group-text" id="basic-addon1"><i class="fa fa-hashtag"></i></span>
 							</div>
-							<input type="text" class="form-control" placeholder="Username" aria-label="Username" name="username" aria-describedby="basic-addon1">
+							<input type="text" class="form-control" placeholder="LRN Number" aria-label="LRN Number" name="lrn_number" aria-describedby="basic-addon1">
 						</div>
 						<div class="input-group mb-3 animated fadeInUp" style="animation-duration: 600ms;">
 							<div class="input-group-prepend">

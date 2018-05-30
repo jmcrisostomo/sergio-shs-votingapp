@@ -21,6 +21,21 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		// $this->load->view('content-landing_page'); Home must be the login agad, for the student's safety.
+		// $this->load->view('student/student-signin');
+
+
+		$this->load->view('student/student-dashboard');
+	}
+
+	public function login(){
 		$this->load->view('student/student-signin');
+	}
+
+	public function profile(){
+		$this->load->view('student/student-profile');
+	}
+
+	public function candidates(){
+		$this->load->view('student/student-candidates');
 	}
 }
