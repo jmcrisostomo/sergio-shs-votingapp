@@ -8,7 +8,7 @@
 					</div>
 					<p class="text-center">
 						<strong>
-							John Matthew E. Crisostomo
+							JM Crisostomo
 							<?php
 								// echo $_SESSION['FIRST_NAME'].' '.$_SESSION['MIDDLE_NAME'].' '.$_SESSION['SUR_NAME'];
 							?>
@@ -21,16 +21,16 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link animated fadeInLeft" style="animation-duration: 0.50s" href="<?php echo base_url();?>" id="sidebarHome"><span><i class="fa fa-fw fa-home"></i></span> Home</a>
+				<a class="nav-link animated fadeInLeft" style="animation-duration: 500ms;" href="<?php echo base_url();?>" id="sidebarHome"><span><i class="fa fa-fw fa-home"></i></span> Home</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link animated fadeInLeft" style="animation-duration: 0.52s" href="<?php echo base_url('Home/profile');?>" id="sidebarProfile"><span><i class="fa fa-fw fa-user"></i></span> Profile</a>
+				<a class="nav-link animated fadeInLeft" style="animation-duration: 525ms;" href="<?php echo base_url('Home/profile');?>" id="sidebarProfile"><span><i class="fa fa-fw fa-user"></i></span> Profile</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link animated fadeInLeft" style="animation-duration: 0.54s" href="<?php echo base_url('Home/candidates');?>" id="sidebarCandidates"><span><i class="fa fa-fw fa-users"></i></span> Candidates</a>
+				<a class="nav-link animated fadeInLeft" style="animation-duration: 550ms;" href="<?php echo base_url('Home/candidates');?>" id="sidebarCandidates"><span><i class="fa fa-fw fa-users"></i></span> Candidates</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link animated fadeInLeft" style="animation-duration: 0.56s" href="<?php echo base_url('Student/messages');?>" id="sidebarMessages"><span><i class="fa fa-fw fa-envelope"></i>
+				<a class="nav-link animated fadeInLeft" style="animation-duration: 575ms;" href="<?php echo base_url('Student/messages');?>" id="sidebarMessages"><span><i class="fa fa-fw fa-envelope"></i>
 				</span> Messages
 					<?php
 					// $User_Number = $_SESSION['USER_NUMBER'];
@@ -50,10 +50,13 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link animated fadeInLeft" style="animation-duration: 0.58s" href="<?php echo base_url('Student/notifications');?>" id="sidebarNotifications"><span><i class="fa fa-fw fa-bell"></i></span> Notifications <span class="badge badge-danger animated tada" style="animation-duration: 750ms; animation-delay: 1000ms;">10</span></a>
+				<a class="nav-link animated fadeInLeft" style="animation-duration: 600ms;" href="<?php echo base_url('Student/notifications');?>" id="sidebarNotifications"><span><i class="fa fa-fw fa-bell"></i></span> Notifications <span class="badge badge-danger animated tada" style="animation-duration: 750ms; animation-delay: 1000ms;">10</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link animated fadeInLeft" style="animation-duration: 0.60s" href="<?php echo base_url('Student/sign_out');?>" id="sidebarSignOut"><span><i class="fa fa-fw fa-sign-out"></i></span> Sign out</a>
+				<a class="nav-link animated fadeInLeft" style="animation-duration: 625ms;" href="<?php echo base_url('Student/sign_out');?>" id="sidebarSignOut"><span><i class="fa fa-fw fa-cog"></i></span> Settings</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link animated fadeInLeft" style="animation-duration: 650ms;" href="<?php echo base_url('Student/sign_out');?>" id="sidebarSignOut"><span><i class="fa fa-fw fa-sign-out"></i></span> Sign out</a>
 			</li>
 		</ul>
 		<!-- for mobile devices -->

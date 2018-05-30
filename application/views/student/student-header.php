@@ -30,5 +30,5 @@
 			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 		</form> -->
 	</div>
-	<span id="time_today" class="navbar-text text-light text-uppercase" style="font-family: 'Rubik';"></span>
+	<span id="time_today" class="navbar-text text-light text-uppercase animated fadeIn" style="font-family: 'Rubik'; animation-delay: 1000ms; animation-duration: 250ms;"></span>
 </nav>

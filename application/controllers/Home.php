@@ -38,4 +38,9 @@ class Home extends CI_Controller {
 	public function candidates(){
 		$this->load->view('student/student-candidates');
 	}
+
+	public function vote(){
+		// this will start the condition if the student has been voted or not, if voted redirect else continue.
+		$this->load->view('student/student-vote_ballot');
+	}
 }

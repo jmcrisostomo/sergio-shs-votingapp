@@ -20,7 +20,7 @@
 						<h5>[Partylist Name #1]</h5>
 	
 						<div class="row slick_content">
-							<div class="col-md-3 col-sm-6 col-6">
+							<div class="col-md-3 col-sm-6 col-6 animated fadeIn">
 								<div class="candidate">
 									<img class="img-fluid rounded-circle center" src="<?php echo base_url();?>assets/images/test.jpg">
 									<h5 class="text-center">Jakob Lewis Sese Rillo</h5>

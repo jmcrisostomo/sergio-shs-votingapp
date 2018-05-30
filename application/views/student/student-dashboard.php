@@ -19,7 +19,7 @@
 						<div class="list-group">
 							<div class="row">
 								<div class="col-md-3 col-sm-6 col-12">
-									<a href="#" class="list-group-item list-group-item-action animated fadeInUp" style="animation-duration: 0.5s; background-color: #4CAF50; color: #FFF;">
+									<a href="<?php echo base_url('Home/vote');?>" class="list-group-item list-group-item-action animated fadeInUp" style="animation-duration: 0.5s; background-color: #4CAF50; color: #FFF;">
 										<div style="padding-bottom: 15px;">
 											<span class="text-left"><i class="fa fa-plus fa-4x"></i></span>
 											<!-- <img class="img-fluid" src="<?php echo base_url('/assets/images/044-vote.png');?>" alt="vote" width="64"> -->

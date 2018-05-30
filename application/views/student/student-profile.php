@@ -42,6 +42,18 @@
 											<td><h5 class="text-right">Section:</h5></td>
 											<td><p class="lead text-left"><?php //echo $_SESSION['USERNAME']; ?></p></td>
 										</tr>
+										<tr>
+											<td><h5 class="text-right">Age:</h5></td>
+											<td><p class="lead text-left"><?php //echo $_SESSION['USERNAME']; ?></p></td>
+										</tr>
+										<tr>
+											<td><h5 class="text-right">Gender:</h5></td>
+											<td><p class="lead text-left"><?php //echo $_SESSION['USERNAME']; ?></p></td>
+										</tr>
+										<tr>
+											<td><h5 class="text-right">Contact Number:</h5></td>
+											<td><p class="lead text-left"><?php //echo $_SESSION['USERNAME']; ?></p></td>
+										</tr>
 										<!-- <tr>
 											<td><h5 class="text-right">Email:</h5></td>
 											<td><p class="lead text-left"><?php //echo $_SESSION['EMAIL_ADDRESS']; ?></p></td>
