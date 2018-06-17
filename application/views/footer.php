@@ -103,6 +103,12 @@
 		    
 		</script>
 
+		<script type="text/javascript">
+			$(document).ready(function($) {
+				$('.dropdown-toggle').dropdown();	
+			});
+		</script>
+
 		<?php
 			if( basename($_SERVER['PHP_SELF'], '.php') == 'candidates' ):
 				echo '<script src="'.base_url('node_modules/slick-carousel/slick/slick.min.js').'"></script>';

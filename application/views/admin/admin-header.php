@@ -5,9 +5,12 @@
 	<button class="navbar-toggler" type="button" id="sidebarBtn">
 		<span class="navbar-toggler-icon"></span>
 	</button>
-	<a class="navbar-brand" href="<?php echo base_url();?>">
-		<img class="img-fluid" src="<?php echo base_url('assets/images/company_logo.png');?>" style="height: 40px;">
-		<span>International Christian Academy</span>
+	<a class="navbar-brand" href="<?php echo base_url('Home');?>">
+		<img class="img-fluid" src="<?php echo base_url('assets/images/logo-1.png');?>" style="height: 40px; /*background-color: #FFF;*/ border-radius: 5px;">
+		<!-- <div class="d-inline-block border-right-to-left"></div> -->
+		<img class="img-fluid" src="<?php echo base_url('assets/images/logo-3.png');?>" style="height: 40px; /*background-color: #FFF;*/ border-radius: 5px;">
+
+		<span>OSSGVS - Sergio Osmena Sr. High School</span>
 	</a>
 
 	<div class="collapse navbar-collapse" id="navbarCollapse">
@@ -27,4 +30,5 @@
 			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 		</form> -->
 	</div>
+	<span id="time_today" class="navbar-text text-light text-uppercase animated fadeIn" style="font-family: 'Rubik'; animation-delay: 1000ms; animation-duration: 250ms;"></span>
 </nav>

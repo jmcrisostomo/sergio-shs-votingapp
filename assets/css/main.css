@@ -19,6 +19,18 @@ html, body{
 	background: #E0E0E0 !important;
 }
 
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+/*global setting*/
+
+
 /*header*/
 .navbar-toggler{
 	border-color: transparent !important;
@@ -36,6 +48,76 @@ html, body{
 {
 	.navbar-brand > span{
 		display: inline;
+	}
+}
+
+
+.dropdown-toggle {
+	padding: 0 15px;
+	margin-left: 25px;
+	-webkit-transition: all 120ms ease-out;
+	   -moz-transition: all 120ms ease-out;
+	    -ms-transition: all 120ms ease-out;
+	     -o-transition: all 120ms ease-out;
+	        transition: all 120ms ease-out;
+}
+.dropdown-toggle:hover, 
+.dropdown-toggle:active,
+.dropdown-toggle:focus{
+	background-color: #5C6BC0;
+	/*border-top: 1px solid #000;*/
+	box-shadow: 0 10px 2px -5px rgba(0,0,0,0.3);
+	color: #000;
+	-webkit-transition: all 200ms ease-in;
+	   -moz-transition: all 200ms ease-in;
+	    -ms-transition: all 200ms ease-in;
+	     -o-transition: all 200ms ease-in;
+	        transition: all 200ms ease-in;
+	cursor: pointer;
+}
+
+.dropdown-toggle::after {
+	display: none !important;
+}
+
+
+.nav-profile-content {
+	display: flex;
+	position: relative;
+}
+
+.nav-profile-content > .user-img {
+	padding-left: 10px;
+}
+
+.nav-profile-content > .user-img .user-info{
+	width: 100%;
+    height: 100%;
+ 	margin: 5px auto;
+ 	/*padding: 15px;*/
+ 	/*background-color: #fff;*/
+ 	/*border-radius: 50%;*/
+}
+.nav-profile-content > .user-info > .user-info-text{
+	position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    line-height: 1px;
+}
+.nav-profile-content > .user-img > img {
+ 	border: 1px solid rgba(0,0,0,0.3);
+
+    object-fit: cover;
+    object-position: center;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+	.dropdown-profile {
+		display: none;
 	}
 }
 /*header*/

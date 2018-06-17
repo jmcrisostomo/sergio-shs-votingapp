@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Admin extends CI_Controller {
+class Auth extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,18 +19,20 @@ class Admin extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
-	public function __construct()
+	public function function_signin()
 	{
-		parent::__construct();
-	}
+		$model = $this->model_auth->signin();
 
-	public function index(){
-		// $this->load->view('content-landing_page'); Home must be the login agad, for the admin's safety.
-		// if ( isset($_SESSION['']) ){
-			$this->load->view('admin/admin-dashboard');
-		// }
-	}
-	public function signin(){
-		$this->load->view('admin/admin-signin');
+		if($model != null){
+			foreach ($a as $value) {
+				echo '<script type=text/javascript>alert("User Number: '.$value->USER_NUMBER.' User Type: '.$value->USER_TYPE.' Username: '.$value->USER_NAME.'");</script>';
+			}
+        	redirect('Admin','refresh');
+		}
+		else
+		{
+			echo '<script type=text/javascript>alert("Username or Password is incorrect!");</script>';
+        	redirect('Admin/signin','refresh');
+		}
 	}
 }

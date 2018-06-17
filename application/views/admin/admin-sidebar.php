@@ -2,14 +2,11 @@
 		<ul class="nav flex-column">
 			<li>
 				<div class="user-content">
-					<!-- <div class="close-toggle float-right">
-						<button class="btn btn-secondary"><span><i class="fa fa-times"></i></span></button>
-					</div>  -->
 					<button id="sidebarCloseButton" class="btn hidden-md-up"><span><i class="fa fa-times"></i></span></button>
 					<div class="user-img">
-						<img class="img-fluid rounded-circle center" src="<?php echo base_url();?>assets/images/johnwick2_0.jpg">
+						<img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/line_draw.png">
 					</div>
-					<p class="text-center">Welcome, <strong><?php echo $_SESSION['NAME'];?></strong></p>
+					<p class="text-center">Welcome, <strong><?php //echo $_SESSION['NAME'];?></strong></p>
 				</div>
 				<div class="nav-sidebar-header">
 					<p class="h5">Menu</p>

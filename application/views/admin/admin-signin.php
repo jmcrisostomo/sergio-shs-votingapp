@@ -14,7 +14,7 @@
 						<img class="img-fluid admin-login-logo" src="<?php echo base_url('assets/images/logo-1.png');?>" >
 					</a>
 					<h5 class="text-center mb-3">Administrator Sign In</h5>
-					<form method="POST" action="<?php echo base_url();?>Controller_Authentication/function_sign_in_user">
+					<form method="POST" action="<?php echo base_url('Auth/function_signin');?>">
 						<div class="input-group mb-3 animated fadeInUp" style="animation-duration: 500ms;">
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
